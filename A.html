@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <link href="css.css" type="text/css" rel="stylesheet">
+    
+        <title>Neural Network Project</title>
+        <style>
+        
+                .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+            
+        </style>
+    </head>
+    
+    <body>
+        <div class="back" >
+            <header>
+                <hgroup >
+                    
+                    
+                        <p style="color:black; text-align: center; font-size: 18">
+                            <img src="1x/Artboard%201.png" style="width:29% ;height:10%"  ><br>Calculate your Neural Network  problems fast with our app</p><br>
+                </hgroup>
+            </header>
+            <div class="empty"></div>
+        </div>
+     
+        <div class="front">
+           
+            <section style="padding: 13px">
+                <form style="color: black; font-size: 21;font-style:normal;line-height:40px;width: 100%">
+                        
+                    <article>
+                        <label>What is the type of network?</label>
+                        <input type="radio" name="type" value="Perceptron" checked>Perceptron
+                        <input type="radio" name="type" value="Hamming">Hamming
+                        <input type="radio" name="type" value="Hebbian">Hebbian
+                        <input type="radio" name="type" value="Pseudoinverse">Pseudoinverse
+                        <span class="checkmark"></span>
+                     </article>
+                    
+                    <article >
+                        <label>What is the number of prototypes?</label>
+                        
+                        <input type="number" name="P" min="2" step="1" value="2" style="width: 23%">
+                    
+                    </article>
+                    
+                    <article>
+                        <label>What is the number of elements in each prototype (R)?</label>
+                        
+                        <input type="number" name="R" min="2" step="1" value="2" style="width: 23%">
+                    </article>
+                    
+              <br>
+                    
+                    <button type="submit" value="next" style="width: 23%;background-color:black;color: white; height: 30px;border-radius: 50px">NEXT</button>
+                    
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
